@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Young Art </title>
+</head>
+<body>
+  <style type="text/css">
+ html,body{
+    height:100% ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+ }
+    
+    .intro {
+         top : 0;
+         background-color:#236AB9;
+         height:14.7%;
+         text-align:left ;
+         
+        margin-bottom: -1.3rem;
+    }
+    .name{
+         float:right ;
+         width:92%;
+        
+         line-height:8px ;
+
+    }
+    .logo{
+        
+         float: left;
+         width: 98.75px;
+         height:98.75px;
+         margin: 0px;
+         border-radius: 50%;
+         background: lightblue;
+    }
+
+    .info{
+         text-align: center;
+         bottom: 0;
+         height:12.5%;
+         background-color:#133863;
+         padding:0%;
+    }
+    
+
+    #vision{
+         overflow: hidden;
+         margin-bottom: -1.3rem;
+         text-align: center;
+         height: 75.3%;
+         background:#2b506e;
+         padding:0%;
+         
+    }
+
+    .figure{
+        position: relative;
+        width: 600px;
+        margin: 0;
+        left: 0;
+        height:75.3%;
+       
+    }
+       /* .figure img {
+        float: left;
+        width: 20%;
+    }
+*/
+    .slideshow{
+        width: calc(600px*6);
+        animation: slide 17s ease infinite;
+        height: 75.3%;
+    }
+    .photo{
+        float: left;
+    }
+
+    .slide img{
+
+        object-fit: contain;
+        width: 600px;
+        height: 600px;
+    }
+
+    .slide:nth-child(1) { }
+
+     .slide:nth-child(2) { }
+
+     .slide:nth-child(3) { }
+
+     .slide:nth-child(4) { }
+
+     .slide:nth-child(5) { }
+
+     .slide:nth-child(6) { }
+
+    @keyframes slide {
+        12%{ margin-left:0px; }
+        25%{ margin-left:calc(-600px * 1); }
+        40%{ margin-left:calc(-600px * 2); }
+        60%{ margin-left:calc(-600px * 3); }
+        75%{ margin-left:calc(-600px * 4); }
+        87%{ margin-left:calc(-600px * 5); }
+    }
+
+  </style>
+     
+     <div class="intro">
+         <div class="name">
+            <h1 style="color:#609CE1;">Young Art </h1>
+            <h3 style="color:#091D34; text-transform:uppercase ;">All about the creative child within you!</h3>
+         </div>
+         <div class="logo">
+         </div>
+         <div class="menu">   
+         </div>
+
+     </div>
+         <div id="vision">
+
+            <figure>
+                <div class="slideshow">
+                    <div class="slide"> <img class="photo" src="media/WhatsApp Image 2023-10-02 at 9.51.20 PM.jpeg" alt="image 1"> </div>
+                    <div class="slide"> <img class="photo" src="media/WhatsApp Image 2023-10-02 at 9.51.21 PM.jpeg" alt="image 2"> </div>
+                    <div class="slide"> <img class="photo" src="media/WhatsApp Image 2023-10-02 at 9.51.24 PM.jpeg" alt="image 3"> </div>
+                    <div class="slide"> <img class="photo" src="media/WhatsApp Image 2023-10-02 at 9.51.24 PM-2.jpeg" alt="image 4"> </div>
+                    <div class="slide"> <img class="photo" src="media/WhatsApp Image 2023-10-02 at 9.51.33 PM.jpeg" alt="image 5"> </div>
+                    <div class="slide"> <img class="photo" src="media/WhatsApp Image 2023-10-02 at 9.51.25 PM.jpeg" alt="image 6"> </div> 
+                </div>
+            </figure>
+        </div>
+            
+     <div class="info">
+            <h1 style="color:#609CE1 ;">Web information here</h1> 
+     </div>
+     
+</body>
+</html>
